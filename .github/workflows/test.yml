@@ -5,4 +5,4 @@ jobs:
     runs-on: self-hosted
     steps:
        - name: run
-         run: whoami
+         run: sudo su | cd /var/www/html | ls

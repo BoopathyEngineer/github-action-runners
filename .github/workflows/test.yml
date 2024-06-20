@@ -6,5 +6,5 @@ jobs:
     steps:
        - name: run
          run: |
-          cd /var/www/html
-          echo "I am a developer" > index.html
+          sudo bash -c 'echo "I am a developer" > /var/www/html/index.html'
+

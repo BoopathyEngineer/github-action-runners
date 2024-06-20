@@ -6,5 +6,5 @@ jobs:
     steps:
        - name: run
          run: |
-          sudo bash -c 'echo "I am a developer" > /var/www/html/index.html'
+          sudo bash -c 'echo "<h1> am a developer and same as Devops Engineer </h1>" > /var/www/html/index.html'
 
